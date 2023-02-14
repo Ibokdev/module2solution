@@ -1,0 +1,78 @@
+#head{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+.screenOne{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 500px;
+    height: fit-content;
+    border: 2px black solid;
+    margin: 5px;
+    background-color: gray;
+}
+.house{
+    display: flex;
+    justify-content: end;
+}
+.chicken{
+    height: fit-content;
+    border-left: 2px black solid;
+    border-bottom: 2px black solid;
+    background-color: rgb(172, 117, 126);
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    text-align: center;
+}
+.beef{
+    height: fit-content;
+    border-left: 2px black solid;
+    border-bottom: 2px black solid;
+    background-color: rgb(155, 26, 26);
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+.sushi{
+    height: fit-content;
+    border-left: 2px black solid;
+    border-bottom: 2px black solid;
+    background-color: rgb(212, 212, 103);
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    text-align: center;
+}
+.lorem{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 90%;
+}
+@media(min-width: 768px){
+    .screenOne{
+
+    }
+}
+@media(max-width: 992px){
+    .screenOne{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .box{
+        width: 80%;
+        height: fit-content;
+        border: 2px black solid;
+        margin: auto;
+        background-color: gray;
+    }
+}
